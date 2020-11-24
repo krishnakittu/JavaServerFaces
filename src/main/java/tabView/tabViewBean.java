@@ -15,7 +15,6 @@ import javax.inject.Named;
 import org.primefaces.PrimeFaces;
 import org.primefaces.component.tabview.Tab;
 import org.primefaces.component.tabview.TabView;
-import org.primefaces.context.PrimeFacesContext;
 import org.primefaces.event.TabCloseEvent;
 
 @Named(value="tabViewBean")

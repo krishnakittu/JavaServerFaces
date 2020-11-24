@@ -1,5 +1,4 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0"
-	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 
   http://maven.apache.org/maven-v4_0_0.xsd">
 
@@ -39,9 +38,13 @@
 		<dependency>
 			<groupId>org.primefaces</groupId>
 			<artifactId>primefaces</artifactId>
-			<version>7.0.RC3</version>
+			<version>8.0</version>
 		</dependency>
-
+		<dependency>
+			<groupId>jakarta.servlet</groupId>
+			<artifactId>jakarta.servlet-api</artifactId>
+			<version>4.0.2</version>
+		</dependency>
 		<!-- cdi-api for glassfish 5 -->
 		<dependency>
 			<groupId>javax.enterprise</groupId>
@@ -65,11 +68,6 @@
 			<id>java.net.m2</id>
 			<name>java.net m2 repo</name>
 			<url>http://download.java.net/maven/2</url>
-		</repository>
-		<repository>
-			<id>1</id>
-			<name>Prime Repo</name>
-			<url>	http://repository.primefaces.org/</url>
 		</repository>
 	</repositories>
 
