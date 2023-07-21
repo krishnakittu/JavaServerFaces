@@ -31,7 +31,7 @@
 			<!-- glassfish 5 -->
 			<groupId>org.glassfish</groupId>
 			<artifactId>jakarta.faces</artifactId>
-			<version>2.3.9</version>
+			<version>2.3.10</version>
 			<scope>provided</scope>
 		</dependency>
 		<!-- Primefaces latest -->
